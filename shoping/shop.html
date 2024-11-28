@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - WearShop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="shoppingcss/shopstyle.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo"><img src="images/logomens.png" alt="Patil Mens Wear" >
+            <span style="font-family:cursive; font-size: 27px;">Men's Wear</span>
+        </div>
+        <nav class="nav-menu">
+            <a href="C:\Users\Rohan Gaikwad\Desktop\wearshop\Public\Wear.html">Home</a>
+            <a href="/shoping/shop.html">Shop</a>
+            <a href="/about.html">About Us</a>
+           
+        </nav>
+    </header>
+
+    <section class="shop-header">
+        <h1>Shop Our Collection</h1>
+        <p>Find the best clothing items to match your style.</p>
+    </section>
+
+
+    <section class="product">
+       
+        <div class="product" data-product-id="1">
+            <div id="product-101">
+            <img src="images/Casualdressforthyoungman8copy2.jpg" alt="Product 1">
+            <h3 data-product-name="Classic T-Shirt">Classic T-Shirt</h3>
+            <p data-product-price="1200">1200rs</p>
+            <a href="#" class="btn-buy" onclick="addToCart(1)">Add to Cart</a>
+            <a href="#" onclick="ordersuccessfully('Rohan', 101)">Place Order</a>
+        </div>
+        </div>
+        
+        
+        <div class="product">
+            <img src="images/Casualdressforthyoungman6.jpg" alt="Product 2" product id="2">
+            <h3 data-product-name="Classic Dress">Classic Dress</h3>
+            <p data-product-price="3500">3500rs</p>
+            <a href="#" class="btn-buy" onclick="addToCart(2)">Add to Cart</a>
+            <a href="#" class="btn-buy" onclick="ordersucessfully(2)">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="images/Casualdressforthyoungman4.jpg" alt="Product 3" product id="3">
+            <h3 data-product-name="Classic Dress">Classic T-Shirt</h3>
+            <p data-product-price="3499">3499rs</p>
+            <a href="#" class="btn-buy" onclick="addToCart(3)">Add to Cart</a>
+            <a href="#" class="btn-buy" onclick="ordersucessfully(3)">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="images/sharp&classic4.jpg" alt="Product 4" product id="4">
+            <h3 data-product-name="Profisional Dress">Profisional Dress</h3>
+            <p data-product-price="2599">2599rs</p>
+            <a href="#" class="btn-buy" onclick="addToCart(4)">Add to Cart</a>
+            <a href="#" class="btn-buy" onclick="ordersucessfully(4)">Buy Now</a>
+        </div> 
+        <div class="product">
+            <img src="images/Casualdressforthyoungman5.jpg" alt="Product 5"product id="5">
+            <h3 data-product-name="Summer Dress">Summer Dress</h3>
+            <p data-product-price="3699">3699rs</p>
+            <a href="#" class="btn-buy" onclick="addToCart(5)">Add to Cart</a>
+            <a href="#" class="btn-buy" onclick="ordersucessfully(5)">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="images/Casualdressforthyoungman7.jpg" alt="Product 6" product id="6">
+            <h3 data-product-name="Fashion Dress">Fashion Dress</h3>
+            <p data-product-price="3799">3799rs</p>
+            <a href="#" class="btn-buy" onclick="addToCart(6)">Add to Cart</a>
+            <a href="#" class="btn-buy" onclick="ordersucessfully(6)">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="images/sharp&classic19.jpg" alt="Product 7" product id="7">
+            <h3 data-product-name="Classic Dress">Classic Dress</h3>
+            <p data-product-price="2499">2499rs</p>
+            <a href="#" class="btn-buy" onclick="addToCart(7)">Add to Cart</a>
+            <a href="#" class="btn-buy" onclick="ordersucessfully(7)">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="images/ThePreppyGuy2.jpg" alt="Product 8" product id="8">
+            <h3 data-product-name="Summer Dress">Summer Dress</h3>
+            <p data-product-price="2099">2099rs</p>
+            <a href="#" class="btn-buy" onclick="addToCart(8)">Add to Cart</a>
+            <a href="#" class="btn-buy" onclick="ordersucessfully(8)">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="images/sharp&classic13.jpg" alt="Product 9" product id="9">
+            <h3 data-product-name="Dress">Dress</h3>
+            <p data-product-price="4599">4599rs</p>
+            <a href="#" class="btn-buy" onclick="addToCart(9)">Add to Cart</a>
+            <a href="#" class="btn-buy" onclick="ordersucessfully(9)">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="images/sharp&classic14.jpg" alt="Product 10" product id="10">
+            <h3 data-product-name="Dress">Dress</h3>
+            <p data-product-price="4499">4499rs</p>
+            <a href="#" class="btn-buy" onclick="addToCart(10)">Add to Cart</a>
+            <a href="#" class="btn-buy" onclick="ordersucessfully(10)">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="images/sharp&classic15.jpg" alt="Product 11" product id="11">
+            <h3 data-product-name="Formal Dress"> Formal Dress</h3>
+            <p data-product-price="3999">3999rs</p>
+            <a href="#" class="btn-buy" onclick="addToCart(11)">Add to Cart</a>
+            <a href="#" class="btn-buy" onclick="ordersucessfully(11)">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="images/sharp&classic9.jpg" alt="Product 12" product id="12">
+            <h3 data-product-name="Dress">Dress</h3>
+            <p data-product-price="2599">2599rs</p>
+            <a href="#" class="btn-buy" onclick="addToCart(12)">Add to Cart</a>
+            <a href="#" class="btn-buy" onclick="ordersucessfully(12)">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="images/ThePreppyGuy1.jpg" alt="Product 13" product id="13">
+            <h3 data-product-name="Siliky Dress"> Silaky Dress</h3>
+            <p data-product-price="4599">4599rs</p>
+            <a href="#" class="btn-buy" onclick="addToCart(13)">Add to Cart</a>
+            <a href="#" class="btn-buy" onclick="ordersucessfully(13)">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="images/ThePreppyGuy2.jpg" alt="Product 14" product id="14">
+            <h3 data-product-name="Formal Dress"> Formal Dress</h3>
+            <p data-product-price="2399">2399rs</p>
+            <a href="#" class="btn-buy" onclick="addToCart(14)">Add to Cart</a>
+            <a href="#" class="btn-buy" onclick="ordersucessfully(14)">Buy Now</a>
+        </div>
+
+        <div class="product">
+            <img src="images/sharp&classic16.jpg" alt="Product 15" product id="15">
+            <h3 data-product-name="Siliky Dress"> Silaky Dress</h3>
+            <p data-product-price="2299">2299rs</p>
+            <a href="#" class="btn-buy" onclick="addToCart(15)">Add to Cart</a>
+            <a href="#" class="btn-buy" onclick="ordersucessfully(15)">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="images/sharp&classic17.jpg" alt="Product 16" product id="16">
+            <h3 data-product-name="Summer Dress"> Summer Dress</h3>
+            <p data-product-price="4299">4299rs</p>
+            <a href="#" class="btn-buy" onclick="addToCart(16)">Add to Cart</a>
+            <a href="#" class="btn-buy" onclick="ordersucessfully(16)">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="images/sharp&classic10.jpg" alt="Product 17" product id="17">
+            <h3 data-product-name="Formal Dress"> Formal Dress</h3>
+            <p data-product-price="1599">1599rs</p>
+            <a href="#" class="btn-buy" onclick="addToCart(17)">Add to Cart</a>
+            <a href="#" class="btn-buy" onclick="ordersucessfully(17)">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="images/sharp&classic11.jpg" alt="Product 18" product id="18">
+            <h3 data-product-name="Winter Dress"> Winter Dress</h3>
+            <p data-product-price="1799">1799rs</p>
+            <a href="#" class="btn-buy" onclick="addToCart(18)">Add to Cart</a>
+            <a href="#" class="btn-buy" onclick="ordersucessfully(18)">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="images/sharp&classic12.jpg" alt="Product 19"product id="19">
+            <h3 data-product-name="Winter Dress"> Winter Dress</h3>
+            <p data-product-price="1899">1899rs</p>
+            <a href="#" class="btn-buy" onclick="addToCart(19)">Add to Cart</a>
+            <a href="#" class="btn-buy" onclick="ordersucessfully(19)">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="images/sharp&classic13.jpg" alt="Product 20" product id="20">
+            <h3 data-product-name="Profisional Dress"> Profisional Dress</h3>
+            <p data-product-price="1999">1999rs</p>
+            <a href="#" class="btn-buy" onclick="addToCart(2)">Add to Cart</a>
+            <a href="#" class="btn-buy" onclick="ordersucessfully(20)">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="images/sharp&classic14.jpg" alt="Product 21" product id="21">
+            <h3 data-product-name="Classic Dress"> Classic Dress</h3>
+            <p data-product-price="2999">2999rs</p>
+            <a href="#" class="btn-buy" onclick="addToCart(21)">Add to Cart</a>
+            <a href="#" class="btn-buy" onclick="ordersucessfully(21)">Buy Now</a>
+        </div>
+        
+        <!-- More products can be added here -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Online Wear Shop | All Rights Reserved</p> 
+       </footer>
+    <script src="script.js"></script>
+    <script src="script1.js"></script>
+</body>
+</html>

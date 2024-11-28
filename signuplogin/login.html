@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WearShop - Log In</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/signuplogin/css/style.css">
+    <link rel="stylesheet" href="/css/indexstyle.css">
+    <!-- <link rel="stylesheet" href="Wear.css"> -->
+
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="/signuplogin/logomens.png" alt="Patil Mens Wear" >
+            <span style="font-family:cursive; font-size: 27px;">Men's Wear</span>
+        </div>
+        <nav class="nav-menu">
+            <a href="C:\Users\Rohan Gaikwad\Desktop\wearshop\index.html">Home</a>
+            <!-- <a href="shoping/shop.html">Shop</a> -->
+            <!-- <a href="#">Collections</a> -->
+            <a href="signup.html">Sign Up</a>
+            <a href="login.html">Login</a>
+            <!-- <a href="#" class="cart">Cart</a> -->
+        </nav>
+    </header>
+    <div class="container">
+        <div class="form-box">
+            <h2>Welcome Back!</h2>
+            <p>Please log in to your account</p>
+            <!-- <form action="#" method="POST"> -->
+                <form action="/login" method="POST">
+                    <div class="input-group">
+                        <input type="username" required name="username" placeholder="Username">
+                    </div>
+                    <div class="input-group">
+                        <input type="password" required name="password" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn">Log In</button>
+                </form>
+            <p class="switch-page">Don’t have an account? <a href="signup.html">Sign up here</a></p>
+        </div>
+        <div class="welcome-box">
+            <h1>Fashion Meets Functionality</h1>
+            <p>Explore the latest trends and styles at WearShop. We’ve got you covered from head to toe. Log in to continue your journey.</p>
+        </div>
+    </div>
+
+   <footer>
+        <p>&copy; 2024 Online Wear Shop | All Rights Reserved</p> 
+       </footer>
+
+  <!-- <script>
+   function handleLogin(event) {
+    event.preventDefault(); // Prevent default form submission
+
+    const username = event.target.username.value; 
+    const password = event.target.password.value; 
+
+    fetch('/api/login', { 
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username, password }),
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            // Call login function to store user data
+            login(data.userId, username, data.name); // Ensure you get the name from the response
+            alert('Login successful!');
+            window.location.href = '/home.html'; // Redirect to the homepage
+        } else {
+            alert('Login failed: ' + data.message);
+        }
+    })
+    .catch(error => {
+        console.error('An error occurred during login:', error);
+        alert('An error occurred. Please try again.');
+    });
+}
+
+
+    </script> -->
+    <script src="loginscript.js"></script>
+</body>
+</html>

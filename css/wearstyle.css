@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    background-color: #333;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.nav-menu a {
+    color: white;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: cursive;
+    font-size: large;
+    font-size: 1.2rem;
+    
+}
+.nav-menu :hover{
+    background-color: blue;
+}
+
+.nav-menu .cart {
+    background-color: #ff4757;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.hero {
+    height: 100vh;
+    background: url('Patil3.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0e120a;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    color: #e8eff0;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #f71018;
+}
+
+.btn-shop-now {
+    background-color: #bd2734;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+} 
+ 
+.btn-shop-now:hover {
+    background-color: #e33f4f;
+} 
+
+.featured-categories {
+    padding: 3rem 2rem;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.featured-categories h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.category-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.category {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 26%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.category img {
+    max-width: 96%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.category h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.promo {
+    padding: 3rem 2rem;
+    text-align: center;
+    background-color: #ef3131;
+    color: rgb(19, 13, 13);
+}
+
+.promo h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.promo p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn-signup {
+    background-color: white;
+    color: #ff4757;
+    padding: 0.75rem 2rem;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-signup:hover {
+    background-color: #f1f1f1;
+}
+
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+}
+p{
+    margin-top: px;
+    font-size: 1.5rem;
+    color: aqua;
+       
+}  
+
+/* **footer** */
+
+
+.footer {
+    background-color: #262424;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    margin-top: 5px;
+} 
+.container{
+    max-width: 1170px;
+    /* background-color: red; */
+    margin: auto;
+   
+ 
+}
+
+ul{
+    list-style:none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color:#0e0d0d;
+}
+
+
+.footer-col{
+    width: 30%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #007185;;
+    /* text-transform: capitalize; */
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    background-color: #333;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WearShop - Sign Up</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/signupstyle.css">
+    <link rel="stylesheet" href="/css/indexstyle.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="logomens.png" alt="Patil Mens Wear" >
+            <span style="font-family:cursive; font-size: 27px;">Men's Wear</span>
+        </div>
+        <nav class="nav-menu">
+            <a href="C:\Users\Rohan Gaikwad\Desktop\wearshop\index.html">Home</a>
+            <a href="signup.html">Sign Up</a>
+            <a href="login.html">Login</a>
+            <!-- <a href="#" class="cart">Cart</a> -->
+        </nav>
+    </header>
+    <div class="container">
+        <div class="form-box">
+            <h2>Create Your Account</h2>
+            <p>Start shopping with WearShop today!</p>
+            <!-- <form action="" method="POST"> -->
+                <form action="/signup" method="POST">
+                    <div class="input-group">
+                        <input type="text" required name="name" placeholder="Full Name">
+                    </div>
+                    <div class="input-group">
+                        <input type="text" required name="username" placeholder="Username">
+                    </div>
+                    <div class="input-group">
+                        <input type="password" required name="password" placeholder="Password">
+                    </div>
+                    <div class="input-group">
+                        <input type="email" required name="email" placeholder=" Enter Email">
+                    </div>
+                    <div class="input-group">
+                        <input type="text" required name="address" placeholder=" Enter Your Address">
+                    </div>
+                    <button type="submit" class="btn">Sign Up</button>
+                </form>
+            <p class="switch-page">Already have an account? <a href="login.html">Log in here</a></p>
+        </div>
+        <div class="welcome-box">
+            <h1>Welcome to WearShop!</h1>
+            <p>Discover your personal style and elevate your fashion game with us. Create an account to get started.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Online Wear Shop | All Rights Reserved</p> 
+       </footer>
+</body>
+</html>

@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+.nav-menu a {
+    color: white;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: large;
+    font-size: 1.2rem;
+}
+
+.nav-menu .cart {
+    background-color: #ff4757;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.about-header {
+    background-color: #ff4757;
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.about-header h1 {
+    font-size: 2.5rem;
+}
+
+.about-header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.about-story {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 2rem;
+}
+
+.story-text {
+    width: 50%;
+    padding-right: 2rem;
+}
+
+.story-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: rgb(9, 9, 79);
+}
+
+.story-text p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    text-align: center;
+    color: black;
+}
+
+.story-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.about-values {
+    padding: 3rem 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about-values h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: rgb(9, 9, 79);
+}
+
+.values-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.value {
+    background-color: #f8f8f8;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 22%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.value h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: rgb(9, 9, 79);
+}
+
+.value p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.about-team {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.about-team h2 {
+    font-size: 1.9rem;
+    margin-bottom: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(9, 9, 79);
+}
+
+.team-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.team-member {
+    width: 25%;
+    text-align: center;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+}
+
+.team-member h3 {
+    font-size: 1.9rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(9, 9, 79);
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.cta-section {
+    padding: 3rem 2rem;
+    text-align: center;
+    background-color: #ff4757;
+    color: white;
+}
+
+.cta-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn-join {
+    background-color: white;
+    color: #ff4757;
+    padding: 0.75rem 2rem;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-join:hover {
+    background-color: #f1f1f1;
+}
+
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    margin-top: 10px;
+}
+p{
+    margin-top: px;
+    font-size: 1.5rem;
+    color: aqua;
+       
+}  

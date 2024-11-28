@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "mon": "^0.0.8",
+    "mysql": "^2.18.1",
+    "node": "^20.18.0"
+  }
+}
